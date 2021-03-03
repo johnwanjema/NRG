@@ -17,6 +17,12 @@ window.Vue = require('vue');
 import router from './routes.js';
 window.router = router;
 
+//bootsrap vue
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+// Install BootstrapVue
+Vue.use(BootstrapVue)
+
+
 //jquery
 import $ from 'jquery'
 window.$ = $

@@ -89,6 +89,9 @@
                                 </h5>
                             </li>
                         </ol>
+                        <div style="padding-left: 230px; padding-top: 20px;">
+                            <button style="margin: auto; width: 30%; padding: 10px;" type="button" class="btn btn-primary btn-lg">Apply</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -119,6 +122,9 @@
                                 </h5>
                             </li>
                         </ol>
+                        <div style="padding-left: 230px; padding-top: 20px;">
+                            <button style="margin: auto; width: 30%; padding: 10px;" type="button" class="btn btn-primary btn-lg">Apply</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -127,7 +133,7 @@
                         <h2>Creative Business Proposal Writer</h2>
                     </div>
                     <div class="card-body" style="padding-left: 400px;">
-                        <p>Work on a creative proposal</p>
+                        <h5>Work on a creative proposal</h5>
                         <ol>
                             <li>
                                 <h5>seeking sponsorship for NRG Wave event from a company of your choice</h5>
@@ -136,7 +142,10 @@
                                 <h5>seeking a company of choice to advertise on NRG Radio</h5>
                             </li>
                         </ol>
-                        <p>NB:- We’re looking for the most creative, well presented, well written, interesting and disruptive proposal that can have companies sponsor NRG Turn up</p>
+                        <h5>NB:- We’re looking for the most creative, well presented, well written, interesting and disruptive proposal that can have companies sponsor NRG Turn up</h5>
+                        <div style="padding-left: 230px; padding-top: 20px;">
+                            <button style="margin: auto; width: 30%; padding: 10px;" type="button" class="btn btn-primary btn-lg">Apply</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -145,7 +154,7 @@
                         <h2>Creative Designers</h2>
                     </div>
                     <div class="card-body" style="padding-left: 400px;">
-                        <p>Work on creative posters for ;-</p>
+                        <h5>Work on creative posters for ;-</h5>
                         <ol>
                             <li>
                                 <h5>NRG Play App</h5>
@@ -154,7 +163,10 @@
                                 <h5>A proposal template for NRG Radio</h5>
                             </li>
                         </ol>
-                        <p>NB:- We’re looking for the most creative, well presented, well written, interesting and disruptive proposal that can have companies sponsor NRG Turn up</p>
+                        <h5>NB:- We’re looking for the most creative, well presented, well written, interesting and disruptive proposal that can have companies sponsor NRG Turn up</h5>
+                        <div style="padding-left: 230px; padding-top: 20px;">
+                            <button style="margin: auto; width: 30%; padding: 10px;" type="button" class="btn btn-primary btn-lg">Apply</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -163,7 +175,7 @@
                         <h2>Social Media Managers</h2>
                     </div>
                     <div class="card-body" style="padding-left: 400px;">
-                        <p>Work on a content schedule/calendar including actual posts and captions for</p>
+                        <h5>Work on a content schedule/calendar including actual posts and captions for</h5>
                         <ol>
                             <li>
                                 <h5>A campaign pushing NRG Play App for a week</h5>
@@ -172,6 +184,9 @@
                                 <h5>A campaign pushing NRG Turn up for a week</h5>
                             </li>
                         </ol>
+                        <div style="padding-left: 230px; padding-top: 20px;">
+                            <button style="margin: auto; width: 30%; padding: 10px;" type="button" class="btn btn-primary btn-lg">Apply</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -180,7 +195,7 @@
                         <h2>Sales Executives</h2>
                     </div>
                     <div class="card-body" style="padding-left: 400px;">
-                        <p>Work on a content schedule/calendar including actual posts and captions for</p>
+                        <h5>Work on a content schedule/calendar including actual posts and captions for</h5>
                         <ol>
                             <li>
                                 <h5>Work on a proposal selling NRG Radio to a potential advertiser of choice</h5>
@@ -189,18 +204,19 @@
                                 <h5>Work on a proposal selling NRG Wave to a potential sponsor of choice</h5>
                             </li>
                         </ol>
-                        <p>
-                            We’re looking for the most creative, well presented, well written, interesting and disruptive proposal, confidence and presentation skills that can have companies buy into your idea to advertise with NRG or sponsor NRG Wave Event
-                        </p>
+                        <h5>We’re looking for the most creative, well presented, well written, interesting and disruptive proposal, confidence and presentation skills that can have companies buy into your idea to advertise with NRG or sponsor NRG Wave Event</h5>
+                        <div style="padding-left: 230px; padding-top: 20px;">
+                            <button style="margin: auto; width: 30%; padding: 10px;" type="button" class="btn btn-primary btn-lg">Apply</button>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="center">
-                        <img class="d-block w-100" style="max-width: 200px; heigth: auto;" src="/images/webDevelopers.png" />
+                        <img class="d-block w-100" style="max-width: 200px; heigth: auto;" src="/images/webDevelpers.png" />
                         <h2>Web Developers</h2>
                     </div>
                     <div class="card-body" style="padding-left: 400px;">
-                        <p>Work on a content schedule/calendar including actual posts and captions for</p>
+                        <h5>Work on a content schedule/calendar including actual posts and captions for</h5>
                         <ol>
                             <li>
                                 <h5>
@@ -218,36 +234,29 @@
                                 </h5>
                             </li>
                         </ol>
-                        <p>
+                        <h5>
                             We’re looking for the most creative, well presented, well written, interesting and disruptive proposal, confidence and presentation skills that can have companies buy into your idea to advertise with NRG or sponsor NRG Wave Event
-                        </p>
+                        </h5>
+                        <div style="padding-left: 230px; padding-top: 20px;">
+                            <button style="margin: auto; width: 30%; padding: 10px;" type="button" class="btn btn-primary btn-lg">Apply</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            <div id="modal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div   class="modal-dialog modal-lg">
+            <div id="modal" style="height:500px" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
                     <div style="background-color:black" class="modal-content">
                         <div class="row m-4">
                             <div class="col-md-6">
-                                <div  class="card" style="width: 18rem; background-color:black">
-                                    <img class="card-img-top" src="/images/nrgPoster.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
+                                <div class="card" style="width: 18rem; height:200px;  background-color:black">
+                                    <a href="/"><img class="card-img-top" src="/images/nrgPoster.png" alt="Card image cap"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card" style="width: 18rem; background-color:black">
-                                    <img class="card-img-top" src="/images/fuxPoster.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
+                                <div class="card" style="width: 18rem;background-color:black">
+                                    <a href="/"> <img class="card-img-top" src="/images/fuxPoster.png" alt="Card image cap"></a>
                                 </div>
                             </div>
                         </div>

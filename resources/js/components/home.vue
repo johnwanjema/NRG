@@ -245,18 +245,19 @@
             </div>
         </div>
         <div>
-            <div id="modal" style="height:500px" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div id="modal" style="height:500px" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="false">
                 <div class="modal-dialog modal-lg">
                     <div style="background-color:black" class="modal-content">
                         <div class="row m-4">
                             <div class="col-md-6">
                                 <div class="card" style="width: 18rem; height:200px;  background-color:black">
-                                    <a href="/"><img class="card-img-top" src="/images/nrgPoster.png" alt="Card image cap"></a>
+                                    <!-- <router-link :to="{ name: 'apply', params: { userId: 123 }}" class="btn btn-success" tag="button">View</router-link> -->
+                                    <router-link :to="{ name: 'apply', params: { station: 123 , role:'' }}"><img class="card-img-top" src="/images/nrgPoster.png" alt="Card image cap"></router-link>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="card" style="width: 18rem;background-color:black">
-                                    <a href="/"> <img class="card-img-top" src="/images/fuxPoster.png" alt="Card image cap"></a>
+                                    <a href="/apply"> <img class="card-img-top" src="/images/fuxPoster.png" alt="Card image cap"></a>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +272,7 @@
 export default {
     data() {
         return {
-            name: ''
+            role: ''
         }
     },
     methods: {

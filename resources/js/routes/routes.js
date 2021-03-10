@@ -19,7 +19,7 @@ export default [
                 name: 'home',
             },
             {
-                path: 'apply',
+                path: 'apply/:station/:position',
                 component: apply,
                 name: 'apply',
                 props: true

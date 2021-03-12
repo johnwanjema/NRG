@@ -1,49 +1,57 @@
 <template>
-    <div style="background-color: red; height:1000px">
-        <div class="container">
-            <div class="row">
-                <div style="margin: 30px; color: white" class="col-md-12 p-20 bg-dark">
-                    <div  class="text-center mb-5 pt-2">
-                        <!-- <img src="/images/fuxPoster.png" alt="LOGO" class="img-fluid" /> -->
-                        <h5 style="color:white">Apply for position of {{position}} at {{station}}</h5>
-                    </div>
-                    <form class="form">
-                        <div class="form-group">
-                            <label>Full Name</label>
-                            <input type="email" placeholder="Full Name" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" placeholder="email" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                            <label>Phone Number</label>
-                            <input type="email" placeholder="number" class="form-control" />
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-12">Upload profile picture</label>
-                            <div class="col-8">
-                                <div class="custom-file">
-                                    <!-- Populating custom file input label with the selected filename (data-toggle="custom-file-input" is initialized in Helpers.coreBootstrapCustomFileInput()) -->
-                                    <input type="file" class="custom-file-input js-custom-file-input-enabled" id="example-file-input-custom" name="example-file-input-custom" data-toggle="custom-file-input">
-                                    <label class="custom-file-label" for="example-file-input-custom">Choose profile picture</label>
+    <div style="background-color: white; height:685px">
+        <div class="container-fluid" style="padding:30px">
+            <div style=" color: white" class="block bg-dark">
+                <div style="background-color:#26b99a" class="block-header block-header-default ">
+                    <h3 style="color:white" class="block-title ">Apply for position of {{position}} at {{station}}
+                    </h3>
+                </div>
+                <div class="block-content">
+                    <form @submit.prevent="addUser()">
+                        <div class="row items-push">
+                            <div class="col-lg-3">
+                                <div class="push">
+                                    <img height="250px" id="target" src="/assets/media/avatars/avatar15.jpg" alt="">
                                 </div>
                             </div>
-                        </div>
-                         <div class="form-group row">
-                            <label class="col-12">Upload file/video</label>
-                            <div class="col-8">
-                                <div class="custom-file">
-                                    <!-- Populating custom file input label with the selected filename (data-toggle="custom-file-input" is initialized in Helpers.coreBootstrapCustomFileInput()) -->
-                                    <input type="file" class="custom-file-input js-custom-file-input-enabled" id="example-file-input-custom" name="example-file-input-custom" data-toggle="custom-file-input">
-                                    <label class="custom-file-label" for="example-file-input-custom">Upload video/file</label>
+                            <div class="col-lg-7 offset-lg-1">
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <label>Full Name</label>
+                                        <input type="text" id="profile-settings-username" name="profile-settings-username" placeholder="Enter your username.."  class="form-control form-control-lg">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="mt-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <button style="color:white" type="submit" class="btn btn-danger  btn-block btn-lg">SUBMIT</button>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <label>Phone Number </label>
+                                        <input type="text" name="profile-settings-email" placeholder="Enter your phone Number.."  class="form-control form-control-lg">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <label>Email Address</label>
+                                        <input type="email" name="profile-settings-email" placeholder="Enter your email.."  class="form-control form-control-lg">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-10 col-xl-6">
+                                        <label class="col-12">Upload Profile Picture</label>
+                                        <div class="custom-file">
+                                            <input id="select_image" type="file" @change="putImage()">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-12" for="example-file-input">Upload File/Video</label>
+                                    <div class="col-12">
+                                        <input type="file" id="example-file-input" name="example-file-input">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <!-- <button style="color:white" type="submit" class="btn btn-danger  btn-block btn-lg">SUBMIT</button> -->
+                                        <button style="background-color: #26b99a; color: white;" type="submit" class="btn  btn-alt-primary btn-lg">Submit</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -56,6 +64,28 @@
 
 <script>
 export default {
-    params: ["station",'position'],
+    props: ["station", 'position'],
+    methods: {
+        addUser() {
+            router.push({
+                name: "dashboard",
+                // params: {darasa :darasa}
+            })
+        },
+        putImage() {
+            var src = document.getElementById("select_image");
+            var target = document.getElementById("target");
+            this.showImage(src, target);
+        },
+        showImage(src, target) {
+            var fr = new FileReader();
+
+            fr.onload = function() {
+                target.src = fr.result;
+            }
+            fr.readAsDataURL(src.files[0]);
+
+        }
+    }
 };
 </script>

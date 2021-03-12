@@ -50,7 +50,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
-                    <router-link class="navbar-brand" to="/mvps">
+                    <router-link class="navbar-brand" to="/mvps/dashboard">
                         <h4 style="color:white;padding-top:15px">Dashboard</h4>
                     </router-link>
                   
